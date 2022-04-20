@@ -33,7 +33,7 @@ public class MusicInfo {
 	public MusicInfo(String title, String desc, String purl, String murl, String jurl, String source, String icon,
 			long appid) {
 		this.title = title;
-		this.desc = desc;
+		this.desc = "七海";
 		this.purl = purl;
 		this.murl = murl;
 		this.jurl = jurl;
@@ -47,7 +47,7 @@ public class MusicInfo {
 		this.icon = "";
 		this.source = source;
 		this.title = title;
-		this.desc = desc;
+		this.desc = "七海";
 		this.purl = purl;
 		this.murl = murl;
 		this.jurl = jurl;
@@ -55,7 +55,7 @@ public class MusicInfo {
 
 	public MusicInfo(String title, String desc, String purl, String murl, String jurl, String source, String icon) {
 		this.title = title;
-		this.desc = desc;
+		this.desc = "七海";
 		this.purl = purl;
 		this.murl = murl;
 		this.jurl = jurl;
