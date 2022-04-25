@@ -143,7 +143,13 @@ public final class Utils {
 	 *         第一条文本，去除首尾空格
 	 */
 	public static String getPlainText(MessageChain msg) {
-		return msg.contentToString().trim();
+       String s = msg.contentToString().trim();
+       
+       if (0 == s.compareTo("i wanna kill you") ||
+               0 == s.compareTo("i wanna kill u"))
+           s += " 七海";
+
+       return s;
 	}
 
 	/**
