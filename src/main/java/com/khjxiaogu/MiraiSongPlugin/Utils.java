@@ -145,8 +145,10 @@ public final class Utils {
 	public static String getPlainText(MessageChain msg) {
        String s = msg.contentToString().trim();
        
-       if (0 == s.compareTo("i wanna kill you") ||
-               0 == s.compareTo("i wanna kill u"))
+       if (0 == s.compareTo("i wanna kill u"))
+           s = "i wanna kill you";
+
+       if (0 == s.compareTo("i wanna kill you"))
            s += " 七海";
 
        return s;
